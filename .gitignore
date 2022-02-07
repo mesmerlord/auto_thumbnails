@@ -1,0 +1,10 @@
+env/
+*.env
+removed_bg/
+screengrab/
+code_image/
+__pycache__/
+*.mp4
+*.avi
+*.png
+*.jpg
