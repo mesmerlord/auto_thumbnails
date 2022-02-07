@@ -192,7 +192,7 @@ def combine_code_screengrab_text(text, foreground_image):
         background = Image.alpha_composite(background, txt)
     foreground = foreground.resize(size=(1920, 1080))
     background.paste(foreground, (1100,400), foreground)
-    
+    background = background.resize((1280,720))
     background.save(f"{foreground_image}-combined.png")
 
 
